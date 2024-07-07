@@ -448,3 +448,21 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/c++,visualstudiocode,visualstudio
+
+#User Defined Ignores
+
+# Visual Studio files and folder
+.vs/
+**.sln
+**.vcxproj
+**.vcxproj.filters
+**.vcxproj.user
+**.csproj
+
+# Engine files
+*.log
+
+# Binaries
+**/bin/
+bin-int/
+Intermediates/
